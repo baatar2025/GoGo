@@ -5,7 +5,7 @@ export const Unuudur = () => {
   return (
    
     <a href='https://gogo.mn/r/dwqw4'>
-      <div className='w-[65%] flex gap-9 mb-10  '>
+      <div className='w-[60%] flex gap-9 mb-10  '>
             <div className=' w-38 h-36 '>
                 <img src="/img/unuudr.jpeg" alt="unuudur" className='rounded-xl' />
             </div>
