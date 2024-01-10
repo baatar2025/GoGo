@@ -14,4 +14,3 @@ export const Footercart = (props) => {
     </div>
   )
 }
-// text-black text-xl w-[100%]
