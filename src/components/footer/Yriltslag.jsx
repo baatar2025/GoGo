@@ -10,14 +10,14 @@ export const Yriltslag = () => {
     <div>
         <div>
           <h1 className='flex text-center'>
-            <img src="/img/yriltslagmice.png" alt="" className=' w-8 h-8' />
+            <img src="/img/yriltslagmice.png" className=' w-8 h-8' />
             Ярилцлага
             </h1>
         </div>
         <div className='flex'>
-           <div >
-              <div className='relative w-[40% ] p-6'>
-                  <img src="/img/Navimg.jpeg" alt="mhn" className=' w-96 h-96' />
+           <div className=''>
+              <div className='relative mt-7'>
+                  <img src="/img/Navimg.jpeg" alt="mhn" className=' w-[450px] h-[530px] rounded-lg' />
                   <div className='absolute bottom-10 '>
                       <button className=' bg-blue-400 text-white rounded-xl p-1'>ХҮНИЙ ТҮҮХ</button>
                       <p className={`text-black text-xl w-[100%]`}>
@@ -27,10 +27,12 @@ export const Yriltslag = () => {
                   </div>     
               </div>
             </div>
+
             <div className='grid grid-cols-2'>
               {set}
             </div>
+
         </div>
     </div>
   )
-} 
+};

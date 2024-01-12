@@ -16,5 +16,4 @@ export const Secdata = () => {
         </div>
   )
 }
-// export default Secdata;
 
